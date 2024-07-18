@@ -1,6 +1,7 @@
 import React from "react";
 import MainDoc from "./components/MainDoc"
 import NavBar from "./components/NavBar"
+import {Content, Creator} from "./components/Content"
 
 export default function Rendering() {
   return (
@@ -8,6 +9,8 @@ export default function Rendering() {
       
       <NavBar/>
       <MainDoc/>
+      <Content/>
+      <Creator/>
 
     </div>
   )
